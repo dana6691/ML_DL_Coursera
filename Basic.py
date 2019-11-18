@@ -39,7 +39,7 @@ def image2vector(image):
     """
     
     ### START CODE HERE ### (≈ 1 line of code)
-    v = None
+    v = image[1:]*image[1:]
     ### END CODE HERE ###
     
     return v
