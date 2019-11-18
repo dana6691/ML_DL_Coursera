@@ -226,7 +226,8 @@ test_set_x = test_set_x_flatten/255.
 
 # In[9]:
 
-# GRADED FUNCTION: sigmoid
+# GRADED FUNCTION: 
+
 
 def sigmoid(z):
     """
@@ -240,7 +241,7 @@ def sigmoid(z):
     """
 
     ### START CODE HERE ### (≈ 1 line of code)
-    s = 1/(1+np.exp(-z))
+    s = 1/(1+np.exp(-x))
     ### END CODE HERE ###
     
     return s
